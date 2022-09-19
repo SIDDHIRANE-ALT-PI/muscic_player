@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title> Music player</title>
+        <link rel="icon" type="image/png" href="https://s2.googleusercontent.com/s2/">         -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">  
+    
+    </head>
+<body>
+       <div class="player-container">
+
+            <!--Song-->
+            <div class="img-container">
+            <!--Image-->
+                <img src="https://rapidapi.com/blog/wp-content/uploads/2017/09/giphy-17.gif" alt=" music image" height="100%" width="100%">; 
+                </img>
+         </div>
+             <h2 id="title">Electronic chill machine</h2>
+            <h3 id="artist">Jac</h3>
+            <div id="Progress_Status">
+                <div id="myprogressBar"></div>
+              </div>
+          <!-- <audio src="bsnl-167.mp3" controls> Ringtone of BSNL  </audio>;
+            <br>
+            <audio src="New_Airtel_2010_Tone-418329.mp3" controls> Ringtone of Airtel</audio>
+            <br>-->
+
+            <audio src="Airtel_Kannad_Best_Quality-613924.mp3" controls>   Ringtone of Airtel_kannada_version   </audio>
+
+         <!--Progress-->
+
+         <div class="Progress-container" id="progress-container">
+
+            <div class="progress" id="progress">  </div>
+
+            <div class="duration-wrapper">
+                <span id="current-time">0.00</span>
+                <span id="duration">2.06</span>
+            </div>    
+         </div>
+        <!--Controls-->
+            <div class="player-contols">
+            <i class="fas fa-backward" id="prev" title="Previous"> </i>
+            <i class="fas fa-play main-button" id="play" title="Play"></i>
+             <i class="fas fa-forward" id="next" title="Next"></i>
+                  
+                </div>
+        </body>
+             <!--Script-->
+                <script src="script.js">
+
+             </script>
+ </body>
+       
+       
+</html>
